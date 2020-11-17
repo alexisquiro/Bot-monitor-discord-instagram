@@ -1,20 +1,17 @@
-# Instagram to discord post images
+# Monitor Discord Instagram 
+send a notification when an account post  
+## Installation
 
-This script executes 2 actions:
-1. Monitors for new image posted in a instagram account (create a cronjob).
-2. If found new image, a bot posts new instagram image in a discord channel.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-REQUIREMENTS:
+```bash
+pip install discord 
+```
 
-- Python v3
-- Python module re, json, requests
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-USAGE:
+Please make sure to update tests as appropriate.
 
-1. Replace INSTAGRAM_USERNAME with username account you want to monitor.
-2. Replace WEBHOOK_URL with Discord account webhook url. To know how, just Google: "how to create webhook discord".
-3. Replace DATABASE with any finename you want to use as temporary data for checking new photos.
-
-COLLABORATIONS:
-
-Collaborations to improve this script are always welcome :)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
